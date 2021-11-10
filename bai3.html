@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let so1 = +prompt("Nhập số bất kỳ: ", '');
+
+    number = ( so1 % 3 === 0 && so1 % 5 > 0 ) ?
+        "Code" : ( so1 % 5 === 0 && so1 % 3 === 0 ) ?
+            "CodeGym" : ( so1 % 7 === 0 ) ?
+                "Gym" : " ";
+    alert(number)
+</script>
+</body>
+</html>
